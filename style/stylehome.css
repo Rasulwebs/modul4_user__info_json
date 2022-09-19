@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navlogo{
+    width: 200px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.navlogo:hover{
+    box-shadow: rgba(58, 232, 255, 0.153) 0px 24px 25px, rgba(79, 254, 245, 0.158) 0px -7px 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(71, 234, 255, 0.153) 0px -3px 5px;
+    background-color:rgba(58, 232, 255, 0.107) ;
+
+}
+.header{
+    background-color: #00384f;
+}
+.hero{
+    background: rgb(118,173,255);
+    background: linear-gradient(0deg, rgba(118,173,255,1) 0%, rgba(255,255,255,0) 0%, rgba(93,128,143,1) 0%, rgba(111,142,155,1) 0%, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 2%, rgba(25,25,25,1) 8%, rgba(40,58,66,1) 13%, rgba(46,71,80,1) 30%, rgba(43,73,85,1) 39%, rgba(37,70,84,1) 47%, rgba(0,56,79,1) 65%);
+}
+.nav_links{
+    max-width: 440px;
+    width: 100%;
+}
+.heroimg{
+    max-width: 900px;
+    width: 100%;
+}
+.hero_title{
+    font-size: 100px;
+}
+.card{
+    width: 360px;
+    margin: 5px;
+    background-color: rgb(255, 252, 248);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.card:hover{
+    box-shadow: rgba(58, 232, 255, 0.461) 0px 24px 25px, rgba(79, 254, 246, 0.398) 0px -7px 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(71, 234, 255, 0.432) 0px -3px 5px;
+
+}
+.cimg{
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.card:hover .cimg{
+    transform: scale(1.09, 1.09);
+    -webkit-transform: scale(1.09, 1.09);
+    -moz-transform: scale(1.09, 1.09);
+    -ms-transform: scale(1.09, 1.09);
+    -o-transform: scale(1.09, 1.09);
+}
+.card-img-top{
+width: 240px;
+margin: auto;
+}
+body{
+    background-color: #000;
+}
+.info_text_hide{
+    display: none;
+}
+.show_text{
+    display: block;
+}
